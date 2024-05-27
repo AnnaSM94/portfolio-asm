@@ -8,6 +8,7 @@
 body {
   font-family: var(--default-font-family);
 }
+
 h1,
 h2,
 h3,
@@ -20,6 +21,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -30,13 +32,6 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-}
-
-img {
-  width: 560px;
-  height: 560px;
-  margin-top: 40px;
-  border-radius: 4px;
 }
 
 .hero {
@@ -64,7 +59,7 @@ img {
 }
 
 .content {
-  margin: 30px;
+  margin: 20px;
 }
 
 .content h1 {
@@ -87,13 +82,23 @@ img {
 }
 
 .index-image {
+  width: 560px;
+  height: 560px;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+
+.dictionary-index-image {
   height: 500px;
+  width: 560px;
 }
 
 .about-image {
-  width: 300px;
-  height: 500px;
+  width: 430px;
+  height: 560px;
+  border-radius: 4px;
   margin-top: 20px;
+  margin-left: 120px;
 }
 
 .work-image {
@@ -121,7 +126,38 @@ img {
 }
 
 .project-description {
-  padding: 80px 40px;
+  padding: 90px 20px 0px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li a.active {
+  color: var(--branding-colour);
 }
 
 @media (max-width: 960px) {
@@ -136,7 +172,7 @@ img {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
