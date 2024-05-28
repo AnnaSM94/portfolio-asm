@@ -162,6 +162,10 @@ input[type="submit"]:hover {
   font-size: 14px;
 }
 
+.intro {
+  font-size: 24px;
+}
+
 .index-image {
   width: 560px;
   height: 560px;
