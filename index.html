@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anna Serra | Portfolio</title>
+    <meta
+      name="description"
+      content="Anna is a front-end developer based in Leeds, United Kingdom"
+    />
+    <title>Front-end developer | Anna Serra</title>
 
     <link
       rel="stylesheet"
@@ -32,7 +36,7 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo.png"
             alt="SheCodes Logo"
@@ -45,10 +49,10 @@
           />
         </a>
         <ul>
-          <li><a href="/" class="active">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" class="active" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Anna">About</a></li>
+          <li><a href="/work.html" title="Anna's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Anna">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -57,7 +61,12 @@
       <h1 class="m-4">Anna Serra</h1>
       <h2>Front-end developer based in the United Kingdom</h2>
       <div>
-        <a href="#" class="btn btn-branding mt-5">Contact me</a>
+        <a
+          href="/contact.html"
+          class="btn btn-branding mt-5"
+          title="Contact Anna"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -82,8 +91,9 @@
               large language ocean. A small river named Duden flows by
             </p>
             <a
-              href="https://world-clock-asm.netlify.app/"
+              href="/work.html"
               class="btn btn-branding-outline"
+              title="Projects"
               >Learn more</a
             >
           </div>
@@ -100,8 +110,9 @@
               large language ocean. A small river named Duden flows by
             </p>
             <a
-              href="https://asm-weather-app.netlify.app/"
+              href="/work.html"
               class="btn btn-branding-outline"
+              title="Projects"
               >Learn more</a
             >
           </div>
@@ -132,8 +143,9 @@
               large language ocean. A small river named Duden flows by
             </p>
             <a
-              href="https://dictionary-react-asm.netlify.app/"
+              href="/work.html"
               class="btn btn-branding-outline"
+              title="Projects"
               >Learn more</a
             >
           </div>
@@ -144,7 +156,7 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
@@ -152,18 +164,36 @@
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:anna.serramau94@gmail.com" class="email-link"
+          <a
+            href="mailto:anna.serramau94@gmail.com"
+            class="email-link"
+            title="Email Anna"
             >anna.serramau94@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/diacnord/" target="_blank"
+          <a
+            href="https://www.instagram.com/diacnord/"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://github.com/AnnaSM94" target="_blank"
+          <a
+            href="https://github.com/AnnaSM94"
+            target="_blank"
+            title="GitHub Profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Anna Serra, and it is
+          <a
+            href="https://github.com/AnnaSM94/portfolio-asm"
+            target="_blank"
+            title="GitHub"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

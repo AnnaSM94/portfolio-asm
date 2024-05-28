@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anna Serra | Work</title>
+    <meta
+      name="description"
+      content="Check out Anna's work and projects and how they were built"
+    />
+    <title>Work | Anna Serra</title>
 
     <link
       rel="stylesheet"
@@ -45,16 +49,18 @@
           />
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html" class="active">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Anna">About</a></li>
+          <li>
+            <a href="/work.html" title="Anna's work" class="active">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Anna">Contact</a></li>
         </ul>
       </nav>
     </div>
     <div class="content-container container">
       <div class="content">
-        <h1>Take a look at what I've been working on!</h1>
+        <h1 class="text-center">Take a look at what I've been working on!</h1>
         <div class="row">
           <div class="col-md-6 mb-5">
             <img
@@ -62,7 +68,15 @@
               alt="World Clock Project"
               class="work-image img-fluid"
             />
-            <h3 class="text-center mt-5">World Clock Project</h3>
+            <h3 class="text-center mt-5">
+              <a
+                href="https://world-clock-asm.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="World Clock App"
+                >World Clock Project</a
+              >
+            </h3>
             <p class="text-muted text-center">
               Built with HTML, CSS and JavaScript
             </p>
@@ -73,7 +87,15 @@
               alt="Weather App"
               class="work-image img-fluid"
             />
-            <h3 class="text-center mt-5">Weather Project</h3>
+            <h3 class="text-center mt-5">
+              <a
+                href="https://asm-weather-app.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Weather App"
+                >Weather Project</a
+              >
+            </h3>
             <p class="text-muted text-center">
               Built with HTML, CSS and JavaScript
             </p>
@@ -86,7 +108,15 @@
               alt="Dictionary Project"
               class="work-image img-fluid"
             />
-            <h3 class="text-center mt-5">Dictionary Project</h3>
+            <h3 class="text-center mt-5">
+              <a
+                href="https://dictionary-react-asm.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Dictionary App"
+                >Dictionary Project</a
+              >
+            </h3>
             <p class="text-muted text-center">
               Built with HTML, CSS with React
             </p>
@@ -97,13 +127,65 @@
               alt="Poem Project"
               class="work-image img-fluid"
             />
-            <h3 class="text-center mt-5">AI Poem Project</h3>
+            <h3 class="text-center mt-5">
+              <a
+                href="https://ai-spanish-poem-generator-asm.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="AI spanish poem App"
+                >AI Poem Project</a
+              >
+            </h3>
             <p class="text-muted text-center">
               Built with HTML, CSS and JavaScript
             </p>
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:anna.serramau94@gmail.com"
+            class="email-link"
+            title="Email Anna"
+            >anna.serramau94@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/diacnord/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/AnnaSM94"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Anna Serra, and it is
+          <a
+            href="https://github.com/AnnaSM94/portfolio-asm"
+            target="_blank"
+            title="GitHub"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>

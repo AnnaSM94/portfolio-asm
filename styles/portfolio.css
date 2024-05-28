@@ -9,6 +9,34 @@ body {
   font-family: var(--default-font-family);
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li a.active {
+  color: var(--branding-colour);
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -28,7 +56,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -38,10 +66,20 @@ p {
   line-height: 30px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--branding-colour);
+}
+
+a:hover {
+  text-decoration: none;
+  color: #857fff;
+}
+
 .hero {
   background-color: var(--secondary-colour);
   text-align: center;
-  padding: 120px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -59,7 +97,7 @@ p {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -137,33 +175,6 @@ p {
   max-height: 40px;
 }
 
-nav {
-  padding: 20px 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #272142;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li a.active {
-  color: var(--branding-colour);
-}
-
 footer {
   margin: 100px 0;
 }
@@ -208,9 +219,15 @@ footer .social-links a:hover {
     font-size: 44px;
     line-height: 56px;
   }
+
   h2 {
     font-size: 44px;
   }
+
+  h3 {
+    font-size: 26px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
