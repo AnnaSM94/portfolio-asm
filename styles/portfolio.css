@@ -76,6 +76,45 @@ a:hover {
   color: #857fff;
 }
 
+/*Contact Form*/
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--branding-colour);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+form label {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--branding-colour);
+}
+
+input[type="submit"] {
+  background-color: var(--branding-colour);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #857fff;
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: var(--secondary-colour);
+  padding: 20px;
+}
+/*End of Contact Form*/
+
 .hero {
   background-color: var(--secondary-colour);
   text-align: center;
@@ -140,7 +179,6 @@ a:hover {
   height: 560px;
   border-radius: 4px;
   margin-top: 20px;
-  margin-left: 120px;
 }
 
 .work-image {
@@ -158,6 +196,12 @@ a:hover {
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #857fff;
+}
+
 .btn-branding-outline {
   color: var(--branding-colour);
   border: 1px solid var(--branding-colour);
@@ -165,6 +209,11 @@ a:hover {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  color: #857fff;
+  border: 1px solid #857fff;
 }
 
 .project-description {
@@ -211,7 +260,7 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: white;
-  background: var(--branding-colour);
+  background: #857fff;
 }
 
 @media (max-width: 960px) {
@@ -240,5 +289,21 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .email-col {
+    margin-top: 50px;
+  }
+
+  footer .email-link {
+    font-size: 20px;
+  }
+
+  .contact-insta {
+    padding-top: 20px;
+  }
+
+  .container {
+    margin-top: 80px;
   }
 }
