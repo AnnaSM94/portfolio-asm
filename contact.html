@@ -65,7 +65,12 @@
         <h1 class="mb-5 text-center">Let's get in touch!</h1>
 
         <div class="form-container">
-          <form action="action_page.php">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="d099c2df-d0eb-4bef-a4bc-1c6e4bc6998e"
+            />
             <label for="fname">Your name</label>
             <input
               type="text"
@@ -81,10 +86,10 @@
               placeholder="Your email..."
             />
 
-            <label for="subject">Message</label>
+            <label for="message">Message</label>
             <textarea
-              id="subject"
-              name="subject"
+              id="message"
+              name="message"
               placeholder="Write your message..."
               style="height: 200px"
             ></textarea>
